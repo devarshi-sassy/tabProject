@@ -28,8 +28,9 @@
     
     
     NSURL *url=[[NSURL alloc] initWithString:@"http://fantasy-sports.sipl-demo.com//fantasy/assets/uploads/SampleVideo.mp4"];
-    
 //    NSURL *fileURL = [NSURL URLWithString:url];
+    
+    NSLog(@"test");
     
     MPMoviePlayerController *moviePlayerController = [[MPMoviePlayerController alloc] initWithContentURL:url];
     [moviePlayerController.view setFrame:CGRectMake(0, 70, 320, 270)];
